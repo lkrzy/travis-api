@@ -4,7 +4,7 @@ describe Travis::Api::App::Cors do
   before do
     mock_app do
       use Travis::Api::App::Cors
-      get('/check_cors') { 'ok' }
+      get('/check_cors') { 'o' }
     end
   end
 
