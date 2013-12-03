@@ -59,12 +59,6 @@ GIT
   specs:
     travis-support (0.0.1)
 
-GIT
-  remote: https://gist.github.com/4269321.git
-  revision: 8e2d21b924a69dd48191df6a18e51769f5a88614
-  specs:
-    micro_migrations (0.0.1)
-
 PATH
   remote: .
   specs:
@@ -171,7 +165,8 @@ GEM
       atomic (~> 1.0)
       avl_tree (~> 1.1.2)
       hitimes (~> 1.1)
-    mime-types (1.25.1)
+    micro_migrations (0.0.1)
+    mime-types (1.25)
     mocha (0.14.0)
       metaclass (~> 0.0.1)
     multi_json (1.8.2)
@@ -288,7 +283,7 @@ DEPENDENCIES
   foreman
   gh
   metriks (= 0.9.9.5)
-  micro_migrations!
+  micro_migrations
   mocha (~> 0.12)
   pry
   rack-attack

@@ -20,6 +20,7 @@ gem 'bunny',           '~> 0.8.0'
 gem 'dalli'
 gem 'pry'
 gem 'metriks',         '0.9.9.5'
+gem 'micro_migrations'
 
 group :test do
   gem 'rspec',         '~> 2.13'
@@ -37,5 +38,4 @@ end
 
 group :development, :test do
   gem 'rake', '~> 0.9.2'
-  gem 'micro_migrations', git: 'https://gist.github.com/4269321.git'
 end
