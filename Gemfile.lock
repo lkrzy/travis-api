@@ -23,7 +23,7 @@ GIT
 
 GIT
   remote: git://github.com/travis-ci/travis-core.git
-  revision: 183d8f10c78eaf0fc08fe24fb3fcc0445ddd96e1
+  revision: 5e5c1bbfb05ef25aae4a86699589d44e0a05eabf
   specs:
     travis-core (0.0.1)
       actionmailer (~> 3.2.12)
@@ -228,7 +228,7 @@ GEM
     rspec-expectations (2.14.4)
       diff-lcs (>= 1.1.3, < 2.0)
     rspec-mocks (2.14.4)
-    s3 (0.3.18)
+    s3 (0.3.20)
       proxies (~> 0.2.0)
     sidekiq (2.5.4)
       celluloid (~> 0.12.0)
@@ -237,7 +237,7 @@ GEM
       redis (~> 3)
       redis-namespace
     signature (0.1.7)
-    simple_states (1.0.0)
+    simple_states (1.0.1)
       activesupport
       hashr (~> 0.0.10)
     sinatra (1.4.4)
